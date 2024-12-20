@@ -1,0 +1,17 @@
+import java.util.Arrays;
+
+public class CompareStringArrays {
+    public static void main(String[] args) {
+
+        String[] array1 = {"apple", "banana", "cherry"};
+        String[] array2 = {"apple", "banana", "cherry"};
+
+        boolean areEqual = Arrays.equals(array1, array2);
+
+        if (areEqual) {
+            System.out.println("The arrays are equal.");
+        } else {
+            System.out.println("The arrays are not equal.");
+        }
+    }
+}
