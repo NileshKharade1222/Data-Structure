@@ -1,0 +1,14 @@
+import java.util.TreeSet;
+
+public class SortedListExample {
+    public static void main(String[] args) {
+        TreeSet<Integer> sortedNumbers = new TreeSet<>();
+
+        sortedNumbers.add(10);
+        sortedNumbers.add(5);
+        sortedNumbers.add(20);
+        sortedNumbers.add(15);
+
+        System.out.println("Sorted List: " + sortedNumbers);
+    }
+}
